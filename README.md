@@ -4,52 +4,105 @@ DESIGN IMAGE
 
 ![Untitled Diagram drawio (7)](https://github.com/user-attachments/assets/a460f8cf-278b-4c2a-bf75-31c841f9f8f2)
 
-Course Management Front-End
-This project is an Angular-based front-end application for course management.
-Prerequisites
-Before you begin, ensure you have met the following requirements:
+# 🎓 Course Management Front-End Kairosoft
 
-You have installed Node.js (which comes with npm)
-You have installed Angular CLI globally.
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 
-Installing Course Management Front-End
-To install the project, follow these steps:
+A robust Angular-based front-end application for efficient course management.
 
-Clone the repository:
-git clone https://github.com/R3lativ3/course-management-front-end.git
+## 📋 Prerequisites
 
-Navigate to the project directory:
-cd course-management-front-end
+Before you embark on this project, make sure you have:
 
-Install the dependencies:
-npm install
+- [Node.js](https://nodejs.org/) (includes [npm](http://npmjs.com/)) installed
+- [Angular CLI](https://angular.io/cli) installed globally
+- A Windows/Linux/Mac machine ready for development
 
+## 🚀 Getting Started
 
-Using Course Management Front-End
-To use Course Management Front-End, follow these steps:
+### Installation
 
-Start the development server:
-npm start
-This will run the app in development mode. Open http://localhost:4100 to view it in the browser. The page will reload if you make edits.
-To build the app for production:
-npm run build
-This builds the app for production to the dist/ folder.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/R3lativ3/course-management-front-end.git
+   ```
 
-Running Tests
-To run tests, use the following command:
+2. **Navigate to the project directory**
+   ```bash
+   cd course-management-front-end
+   ```
+
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+1. **Start the development server**
+   ```bash
+   npm start
+   ```
+   This will launch the app in development mode. Open your browser and visit [http://localhost:4100](http://localhost:4100).
+
+2. **Building for production**
+   ```bash
+   npm run build
+   ```
+   This command builds the app for production in the `dist/` folder.
+
+## 🧪 Testing
+
+Run the test suite with:
+```bash
 npm test
-This will launch the test runner in interactive watch mode.
-Additional Commands
+```
+This launches the test runner in interactive watch mode.
 
-ng serve: Run the development server on the default port (usually 4200)
-ng build: Build the project
-ng test: Execute unit tests via Karma
-ng e2e: Execute end-to-end tests (you may need to set this up separately)
+## 🛠 Additional Commands
 
-Dependencies
-This project uses Angular 17.3.0 and includes the following main dependencies:
+| Command | Description |
+|---------|-------------|
+| `ng serve` | Run the development server on the default port (4200) |
+| `ng build` | Build the project |
+| `ng test`  | Execute unit tests via [Karma](https://karma-runner.github.io) |
+| `ng e2e`   | Execute end-to-end tests (may require additional setup) |
 
-@angular/material
-@angular/cdk
-rxjs
+## 📦 Main Dependencies
+
+- Angular v17.3.0
+- Angular Material
+- Angular CDK
+- RxJS
+
+> For a complete list of dependencies, please refer to the `package.json` file.
+
+## 🤝 Contributing
+
+We welcome contributions! Here's how you can help:
+
+1. Fork the repository
+2. Create your feature branch: `git checkout -b feature/AmazingFeature`
+3. Commit your changes: `git commit -m 'Add some AmazingFeature'`
+4. Push to the branch: `git push origin feature/AmazingFeature`
+5. Open a pull request
+
+Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+
+## 📞 Contact
+
+Have questions? Reach out to us:
+
+- Project Maintainer: [your-email@example.com](mailto:your-email@example.com)
+- Project Homepage: https://github.com/R3lativ3/course-management-front-end
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE.md file for details.
+
+---
+
+Made with ❤️ by the Course Management Team
 
