@@ -1,0 +1,27 @@
+.spacer {
+  flex: 1 1 auto;
+}
+
+.content-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.welcome-card {
+  background-color: #f0f0f0;
+  margin-bottom: 20px;
+}
+
+/* Dark mode styles */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #303030;
+    color: #ffffff;
+  }
+
+  .welcome-card {
+    background-color: #424242;
+    color: #ffffff;
+  }
+}

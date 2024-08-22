@@ -1,0 +1,13 @@
+<h2 mat-dialog-title>{{ data.title }}</h2>
+<mat-dialog-content>
+  @for (field of data.fields; track field.key) {
+    <mat-form-field>
+      <mat-label>{{ field.label }}</mat-label>
+      <input matInput [(ngModel)]="field.value">
+    </mat-form-field>
+  }
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onCancel()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data.fields" cdkFocusInitial>Save</button>
+</mat-dialog-actions>
